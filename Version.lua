@@ -104,8 +104,8 @@ function module:QueryVersion()
 	local _, class = UnitClass("player")
 	if class == "WARLOCK" then
 		self.responseTable[UnitName("player")] = Abraxas.revision
-		self.responses = 1
 	end
+	self.responses = 1
 	
 	Abraxas:Sync("AbraxasVersionQuery")
 	self:UpdateTablet()
