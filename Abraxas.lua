@@ -17,7 +17,7 @@ local BS = AceLibrary("Babble-Spell-2.2")
 
 
 Abraxas = AceLibrary("AceAddon-2.0"):new("AceEvent-2.0", "AceConsole-2.0", "AceModuleCore-2.0", "AceDB-2.0", "AceDebug-2.0", "FuBarPlugin-2.0")
-Abraxas.revision = 1
+Abraxas.revision = 2
 
 Abraxas:RegisterDB("AbraxasDB")
 Abraxas.cmdtable = {
