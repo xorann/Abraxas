@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Abraxas
 ## Notes: Warlock Helper
+## Notes-ruRU: Помощник Чернокнижника
 ## Notes-deDE: Der beste Freund der kleinen Hexe
 ## Author: Dorann
 ## Version: 0.1
@@ -31,6 +32,7 @@ Libs\Dewdrop-2.0\Dewdrop-2.0.lua
 
 Locale-enUS.lua
 Locale-deDE.lua
+Locale-ruRU.lua
 Abraxas.lua
 Summon.lua
 Version.lua

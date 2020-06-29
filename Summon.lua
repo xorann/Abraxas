@@ -143,6 +143,9 @@ function module:CheckForRequest(msg, name)
 	if module:ContainsWholeWord(msg, "port") 
 		or module:ContainsWholeWord(msg, "porten")
 		or module:ContainsWholeWord(msg, "summon")
+		or module:ContainsWholeWord(msg, "сумм") -- rus msg
+		or module:ContainsWholeWord(msg, "сум") -- rus msg
+		or module:ContainsWholeWord(msg, "123") -- rus msg
 		then
 		
 		--module:AddPlayer(name)
